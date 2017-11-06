@@ -1,0 +1,142 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-border span {
+    background: #6aaf08;
+    height: 5px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.section-border span.black-border {
+    width: 30px;
+    background: #333;
+}
+
+.claiant-active .owl-dots div {
+    height: 5px;
+    width: 20px;
+    background: #6aaf08;
+    display: inline-block;
+    margin: 5px;
+    transition: all .5s;
+}
+
+.claiant-active .owl-dots div.active {
+    height: 5px;
+    width: 30px;
+    background: #333;
+}
+
+.claiant-active .owl-dots {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.single-cliant-item {
+    border: 2px solid #d5dccc;
+    padding: 10px;
+    font-style: italic;
+    position: relative;
+    padding-left: 80px;
+}
+
+.single-cliant-item:before {
+    font-family: fontAwesome;
+    content: "\f10e";
+    position: absolute;
+    color: #6aaf08;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+}
+
+.single-cliant-item:after {
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    background: #d5dccc;
+    left: 40px;
+    top: 15%;
+    content: '';
+    margin-left: 20px;
+}
+
+.single-cliant-item p {
+    color: #808280;
+    font-size: 18px;
+    font-family: none;
+    line-height: 1.5;
+
+}
+
+.single-cliant-item h3 {
+    font-style: none;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.single-cliant-item h3 span {
+    display: block;
+    font-size: 18px;
+    font-style: none;
+    color: #808280;
+    font-size: none;
+    padding-top: 10px;
+}
